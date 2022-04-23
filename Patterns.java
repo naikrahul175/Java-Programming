@@ -8,7 +8,7 @@ public class Patterns {
             for(int j=1; j<=m; j++) {
                 System.out.print("*");
             }
-            System.out.println();
+            System.out.println(); //new line
         }
                  System.out.println();  // space for next pattern
 
@@ -20,7 +20,7 @@ public class Patterns {
                     System.out.print(" ");
                 }    
             }
-            System.out.println();
+            System.out.println(); //new line
         }
 
         System.out.println(); // space for next pattern
@@ -50,7 +50,7 @@ public class Patterns {
             for(int j=1; j<=i; j++) {
                 System.out.print("*");
             }
-        System.out.println();
+        System.out.println(); //new line
         }
 
         System.out.println(); //space for next pattern
@@ -59,16 +59,17 @@ public class Patterns {
             for(int j=1; j<=i; j++) {
                 System.out.print(j+" ");
             }
-        System.out.println();
+        System.out.println(); //new line
         }
 
-        int count =0;
         System.out.println(); // space foe next  pattern
-        for(int i=1; i<=n; i++) {
+        int count =0;
+
+        for(int i=1; i<=n; i++) { 
             for(int j=1; j<=i; j++) {
-                System.out.print(count++ +" ");
+                System.out.print((count++) +" ");
             }
-        System.out.println();
+        System.out.println(); //new line
         }
 
         System.out.println(); // space for next pattern
@@ -76,7 +77,7 @@ public class Patterns {
         for(int i=1; i<=n; i++) {
             for(int j=1; j<=i; j++) {
                 int sum = i+j;
-                if(sum % 2 == 0) {
+                if(sum % 2 == 0) { //for finding Even & Odd
                     System.out.print("1 ");
                 }else {
                     System.out.print("0 ");
